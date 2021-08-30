@@ -1,0 +1,23 @@
+.searchpage {
+  width: 82%;
+  padding: 30px 80px;
+  background-color: #181818;
+  /* overflow-y: scroll !important; */
+  
+}
+.filter {
+  display: flex;
+  align-items: center;
+  font-size: 10px !important;
+  color: #aaaaaa !important;
+}
+.filter > h2 {
+  margin-left: 10px;
+  color: #aaaaaa !important;
+}
+.searchpage > hr {
+  height: 1px;
+  border: 0;
+  margin: 10px 0px;
+  background-color: gray;
+}

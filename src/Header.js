@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import MenuIcon from "@material-ui/icons/Menu";
 import "./header.css";
 import SearchIcon from "@material-ui/icons/Search";
@@ -8,23 +8,33 @@ import AppsIcon from "@material-ui/icons/Apps";
 import NotificationsIcon from "@material-ui/icons/Notifications";
 import { Avatar } from "@material-ui/core";
 import { IconButton } from "@material-ui/core";
+import { Link } from "react-router-dom";
 
 function Header() {
+  const [Input, setInput] = useState("");
   return (
     <div className="header">
       <div className="header_left">
         <MenuIcon className="header_icon1" />
-        <img
-          src="https://upload.wikimedia.org/wikipedia/commons/a/af/Youtube.png"
-          alt=""
-          className="header_yticon"
-        />
+        <Link to="/">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/a/af/Youtube.png"
+            alt=""
+            className="header_yticon"
+          />
+        </Link>
       </div>
       <div className="header_bw">
-        <input type="text" placeholder="Search" className="header_input" />
-        <SearchIcon className="header_icon2" />
+        <input
+          onChange={(e) => setInput(e.target.value)} //e is the search bar, e.target.value is what we type inside input field
+          type="text"
+          placeholder="Search"
+          className="header_input"
+        />
+        <Link to={`/search/${Input}`}>
+          <SearchIcon className="header_icon2" />
+        </Link>
         <IconButton>
-          {" "}
           <MicIcon className="header_icon3" />
         </IconButton>
       </div>

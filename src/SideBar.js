@@ -27,25 +27,30 @@ function SideBar() {
         </div>
       </div>
 
-      <div className="side_home">
-        <VideoLibraryIcon className="side_icon" />
-        <h3 className="side_text">library</h3>
+      <div className="sidebar_bw">
+        <div className="side_home">
+          <VideoLibraryIcon className="side_icon" />
+          <h3 className="side_text">Library</h3>
+        </div>
+        <div className="side_home">
+          <HistoryIcon className="side_icon" />
+          <h3 className="side_text">History</h3>
+        </div>
+        <div className="side_home">
+          <PlayArrowIcon className="side_icon" />
+          <h3 className="side_text">Your Videos</h3>
+        </div>
+        <div className="side_home">
+          <WatchLaterIcon className="side_icon" />
+          <h3 className="side_text">Watch Later</h3>
+        </div>
+        <div className="side_home">
+          <ThumbUpIcon className="side_icon" />
+          <h3 className="side_text">Liked Videos</h3>
+        </div>
       </div>
-      <div className="side_home">
-        <HistoryIcon className="side_icon" />
-        <h3 className="side_text">History</h3>
-      </div>
-      <div className="side_home">
-        <PlayArrowIcon className="side_icon" />
-        <h3 className="side_text">Your Videos</h3>
-      </div>
-      <div className="side_home">
-        <WatchLaterIcon className="side_icon" />
-        <h3 className="side_text">Watch Later</h3>
-      </div>
-      <div className="side_home">
-        <ThumbUpIcon className="side_icon" />
-        <h3 className="side_text">Liked Videos</h3>
+      <div className="sidebar_bottom">
+        <p className="subscribe">SUBSCRIPTIONS</p>
       </div>
     </div>
   );
