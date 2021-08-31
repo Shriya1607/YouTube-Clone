@@ -26,7 +26,7 @@ function SideBar() {
           <h3 className="side_text">Subscription</h3>
         </div>
       </div>
-
+      <hr className="sidebar_divider" />
       <div className="sidebar_bw">
         <div className="side_home">
           <VideoLibraryIcon className="side_icon" />
@@ -49,6 +49,7 @@ function SideBar() {
           <h3 className="side_text">Liked Videos</h3>
         </div>
       </div>
+      <hr className="sidebar_divider" />
       <div className="sidebar_bottom">
         <p className="subscribe">SUBSCRIPTIONS</p>
       </div>

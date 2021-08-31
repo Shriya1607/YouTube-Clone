@@ -3,6 +3,7 @@
   margin-bottom: 30px;
   width: 700px;
   margin-top: 15px;
+  width: 75vw;
 }
 .videoRow > img {
   width: 360px;
@@ -11,9 +12,10 @@
 }
 .videoRow_text {
   margin-left: 14px;
+  width: 100%;
 }
-.videoRow_text > h3 {
-  font-size: 18px !important;
+.videoRow_text > h4 {
+  font-size: 16px !important;
   color: white;
 }
 .videoRow_description {

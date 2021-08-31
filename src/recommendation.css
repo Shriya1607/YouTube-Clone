@@ -1,6 +1,6 @@
 .recommendation {
   background-color: #181818;
-  width: 82%;
+  width: 100%; /*82
   /* padding: 40px 20px; */
   padding-top: 10px;
   padding-left: 3px;
@@ -8,7 +8,7 @@
 .videos {
   display: flex;
   flex-wrap: wrap;
-  padding: 10px 30px;
+  padding: 10px 0 0 30px;
 }
 .recommend_video {
   padding-left: 50px !important;

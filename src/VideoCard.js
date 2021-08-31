@@ -5,7 +5,7 @@ import "./videocard.css";
 function VideoCard(props) {
   return (
     <div className="videocard">
-      <img src="https://picsum.photos/270/140" alt="" className="thumnbnail" />
+      <img src="https://picsum.photos/280/160" alt="" className="thumnbnail" />
       <div className="videocard_info">
         <Avatar className="videocard_avatar" />
         <div className="videocard_text">

@@ -1,7 +1,7 @@
 .videocard {
-  width: 270px;
+  width: 260px;
   margin-bottom: 40px;
-  padding-right: 25px;
+  padding-right: 35px;
 }
 .videocard_info {
   display: flex !important;
@@ -12,6 +12,7 @@
 }
 .thumbnail {
   height: 140;
+  padding: 0 50px;
 }
 .video_title {
   color: #ffffff;

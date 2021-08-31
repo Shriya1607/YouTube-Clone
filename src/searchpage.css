@@ -1,9 +1,8 @@
 .searchpage {
-  width: 82%;
+  width: 65vw;
   padding: 30px 80px;
   background-color: #181818;
   /* overflow-y: scroll !important; */
-  
 }
 .filter {
   display: flex;
